@@ -1,6 +1,6 @@
 
 <p align="center">
-<b>𝗛𝗢𝗡𝗘𝗬 𝗖𝗢𝗣𝗬𝗥𝗜𝗚𝗛𝗧</b>
+<b>нοиєγ ϲοργяιgнτ</b>
 </p>
 
 <h3 align="center">
