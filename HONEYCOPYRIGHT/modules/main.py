@@ -21,17 +21,17 @@ from pyrogram.errors import FloodWait
 # -------------------------------------------------------------------------------------
 
 
-start_txt = """<b> 🤖 𝗜𝗡𝗦𝗔𝗡𝗘 𝗖𝗢𝗣𝗬𝗥𝗜𝗚𝗛𝗧 🛡️ </b>
+start_txt = """<b> 🤖 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 𝐏𝐑𝐎𝐓𝐄𝐂𝐓𝐎𝐑 🛡️ </b>
 
-𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗜𝗡𝗦𝗔𝗡𝗘 𝗖𝗢𝗣𝗬𝗥𝗜𝗚𝗛𝗧 🛡️, 𝗒𝗈𝗎𝗋 𝗏𝗂𝗀𝗂𝗅𝖺𝗇𝗍 𝗀𝗎𝖺𝗋𝖾𝗂𝗇 𝗂𝗇 𝗍𝗁𝗂𝗌 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝗌𝗉𝖺𝖼𝖾! 𝖮𝗎𝗋 𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗂𝗌 𝗍𝗈 𝖾𝗇𝗌𝗎𝗋𝖾 𝖺 𝗌𝖾𝖼𝗎𝗋𝖾 𝖺𝗇𝖽 𝗉𝗅𝖾𝖺𝗌𝖺𝗇𝗍 𝖾𝗇𝗏𝗂𝗋𝗈𝗇𝗆𝖾𝗇𝗍 𝖿𝗈𝗋 𝖾𝗏𝖾𝗋𝗒𝗈𝗇𝖾. 𝖥𝗋𝗈𝗆 𝖼𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 𝗉𝗋𝗈𝗍𝖾𝖼𝗍𝂢𝗂𝗈𝗇 𝗍𝗈 𝗆𝖺𝗂𝗇𝗍𝖺𝗂𝗇𝗂𝗇𝗀 𝖽𝖾𝖼𝗈𝗋𝗎𝗆, 𝗐𝖾'𝗏𝖾 𝗀𝗈𝗍 𝗂𝗍 𝖼𝗈𝗏𝖾𝗋𝖾𝖽.
+Wᴇʟᴄᴏᴍᴇ I ᴀᴍ ˹ Cᴏᴘʏʀɪɢʜᴛ ᴘʀᴏᴛᴇᴄᴛᴏʀ ˼ ᴡʜɪᴄʜ ᴅᴇᴛᴇᴄᴛs ᴄᴏᴘʏʀɪɢʜᴛ ᴍᴇᴛᴇʀɪᴀʟ ᴀɴᴅ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ɪᴛ Aʟᴡᴀʏs ғʀᴇᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ©️ ɪssᴜᴇs ⚡.
 
-𝖥𝖾𝖾𝗅 𝖿𝗋𝖾𝖾 𝗍𝗈 𝗋𝖾𝗉𝗈𝗿𝗍 𝖺𝗇𝗒 𝖼𝗈𝗇𝖼𝖾𝗋𝗇𝗌, 𝖺𝗇𝖽 𝗅𝖾𝗍'𝗌 𝗐𝗈𝗋𝗄 𝗍𝗈𝗀𝖾𝗍𝗁𝖾𝗋 𝗍𝗈 𝗆𝖺𝗄𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝗎𝗇𝗂𝗍𝗒 𝗍𝗁𝗋𝗂𝗏𝖾! 🤝🔐 """
+⚡Hᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ :- Jᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ɢɪᴠᴇ sᴏᴍᴇ ᴘᴏᴡᴇʀs ✨ """
 
 @app.on_message(filters.command("start"))
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝐒ᴜᴍᴍᴏ ᴍᴇ", url=f"https://t.me/insanecopyright_bot?startgroup=true")
+          InlineKeyboardButton("𝐀ᴅᴅ ᴍᴇ", url=f"https://t.me/copyrightprotector_1bot?startgroup=true")
         ],
         [
           InlineKeyboardButton("• 𝐇ᴀɴᴅʟᴇʀ •", callback_data="dil_back")
@@ -40,7 +40,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/c95b57e55b69abc2cf4e0.jpg",
+        photo="https://graph.org/file/759f9911f9a3a6ba749e5.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -49,7 +49,7 @@ async def start(_, msg):
 gd_buttons = [              
         [
             InlineKeyboardButton("𝐎ᴡɴᴇʀ", user_id=OWNER_ID),
-            InlineKeyboardButton("𝐒ᴜᴘᴘᴏʀᴛ", url="https://t.me/insanesociety"),    
+            InlineKeyboardButton("𝐔ᴘᴅᴀᴛᴇs", url="https://t.me/copyrightprotector"),    
         ]
         ]
 
@@ -119,12 +119,12 @@ async def handle_message(client, message):
         logging.info(f"Deleting message with ID {message.id}")
         await message.delete()
       #  user_mention = from_user.mention
-        await message.reply_text(f"@{message.from_user.username} PLEASE DON'T SEND AGAIN!!")
+        await message.reply_text(f"@{message.from_user.username} Don't send next time!!")
     elif any(keyword in message.caption for keyword in FORBIDDEN_KEYWORDS):
         logging.info(f"Deleting message with ID {message.id}")
         await message.delete()
        # user_mention = from_user.mention
-        await message.reply_text(f"@{message.from_user.username} PLEASE DONT SEND AGAIN!!")
+        await message.reply_text(f"@{message.from_user.username} Don't send next time!!")
         
         
 # -------------------------------------------------------------------------------------
